@@ -83,7 +83,7 @@ const LoginPage = () => {
     }
   };
   return (
-    <div className="bg-gray-100 px-8 h-screen flex  flex-col gap-4 py-8 items-center">
+    <div className="bg-gray-100 px-8 h-screen flex  flex-col gap-4 py-8 items-center w-full">
       <div className=" cursor-pointer  animate__animated animate__zoomIn">
         <img
           src={logo}
@@ -162,11 +162,11 @@ const LoginPage = () => {
                   </div>
                 </div>
               </div>
-              <ToastContainer position="top-right" autoClose={2500} />
             </div>
           </div>
         </div>
       </div>
+      <ToastContainer position="top-right" autoClose={2500} />
     </div>
   );
 };
